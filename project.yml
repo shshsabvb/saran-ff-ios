@@ -8,11 +8,15 @@ targets:
     type: application
     platform: iOS
     deploymentTarget: "15.0"
+
     sources:
       - Sources
+
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.saran.saranff
+        PRODUCT_NAME: SARANFF
         INFOPLIST_KEY_CFBundleDisplayName: SARAN FF
+        GENERATE_INFOPLIST_FILE: YES
         SWIFT_VERSION: "5.0"
         TARGETED_DEVICE_FAMILY: "1,2"
